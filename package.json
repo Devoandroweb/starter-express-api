@@ -1,22 +1,31 @@
 {
-  "name": "starter-express-api",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.17.2",
+    "http": "^0.0.1-security",
+    "nodemon": "^2.0.15",
+    "pusher": "^5.1.0-beta",
+    "qrcode": "^1.5.0",
+    "qrcode-terminal": "^0.12.0",
+    "rimraf": "^3.0.2",
+    "serve-favicon": "^2.5.0",
+    "socket.io": "^4.4.0",
+    "whatsapp-web.js": "^1.18.3",
+    "ws": "^8.8.0"
+  },
+  "name": "api-wa-v2",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "wa-api",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
+    "stop": "node app.js ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cyclic-software/starter-express-api.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cyclic-software/starter-express-api/issues"
-  },
-  "homepage": "https://github.com/cyclic-software/starter-express-api#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "keywords": [
+    "whatsapp-api",
+    "node-js"
+  ],
+  "author": "rossi",
+  "license": "MIT"
 }
